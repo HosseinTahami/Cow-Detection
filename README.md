@@ -7,7 +7,7 @@ This repository contains code for detecting cows in videos using the YOLOv5 obje
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/HosseinTahami/CowDetection.git
 ```
 
 2. Install the required dependencies:
