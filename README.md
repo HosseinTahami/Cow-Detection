@@ -21,9 +21,9 @@ pip install -r requirements.txt
 
 2. Open the detect_cows.py file and modify the following variables:
 
-  • video_path: Path to your input video file.
+      • video_path: Path to your input video file.
 
-  • output_path: Path to save the output video file.
+      • output_path: Path to save the output video file.
 
 3. Run the script:
 
