@@ -1,4 +1,4 @@
-# Cow Detection using YOLOv5
+# Cow Detection using YOLOv5 🐄
 
 This repository contains code for detecting cows in videos using the YOLOv5 object detection model. It utilizes the `ultralytics/yolov5` PyTorch hub model for inference.
 
