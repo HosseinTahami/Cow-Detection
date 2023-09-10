@@ -1,2 +1,2 @@
 # Cow Segmentation
-neural network for segmentaion for cow
+create a model from YOLO ( You Only Look Once ) to detect cows in a video
