@@ -8,3 +8,10 @@ This repository contains code for detecting cows in videos using the YOLOv5 obje
 
 ```bash
    git clone https://github.com/your-username/your-repo.git
+```
+
+2. Install the required dependencies:
+
+```bash
+     pip install -r requirements.txt
+```
