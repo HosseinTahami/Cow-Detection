@@ -2,7 +2,7 @@
 
 This repository contains code for detecting cows in videos using the YOLOv5 object detection model. It utilizes the `ultralytics/yolov5` PyTorch hub model for inference.
 
-## Installation
+## Installation ⛓️⚙️⚒️
 
 1. Clone the repository: 🛠️
 
@@ -37,7 +37,7 @@ The script will process the video, detect cows using YOLOv5, draw bounding boxes
 4. The output video will be saved in the specified output_path.
 
 
-## Contributing
+## 🙌🏻 Contributing 🙌🏻
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
 
