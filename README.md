@@ -29,7 +29,7 @@ pip install -r requirements.txt
 3. Run the script:
 
 ```bash
-python detect_cows.py
+python model.py
 ```
 
 The script will process the video, detect cows using YOLOv5, draw bounding boxes around them, and save the output video.
