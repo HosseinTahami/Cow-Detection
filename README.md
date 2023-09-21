@@ -39,7 +39,7 @@ The script will process the video, detect cows using YOLOv5, draw bounding boxes
 
 ## 🙌🏻 Contributing 🙌🏻
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.📌
 
 ## License 📝
 
