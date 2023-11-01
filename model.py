@@ -1,6 +1,6 @@
 import cv2
 import torch
-from google.colab.patches import cv2_imshow
+
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
@@ -27,14 +27,11 @@ def detect_cows(model, video_path, output_path):
 
         for _, cow in cows.iterrows():
             xmin, ymin, xmax, ymax = cow[['xmin', 'ymin', 'xmax', 'ymax']]
-            cv2.rectangle(frame, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (0, 255, 0), 2)
+            cv2.rectangle(frame, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (0, 255, 0), 1)
 
         out.write(frame)
 
-        cv2_imshow(frame)
-
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
+        cv2.imshow("Object Detection", frame)
 
     video.release()
     out.release()
@@ -43,4 +40,4 @@ def detect_cows(model, video_path, output_path):
 
     print(f"Detection saved to {output_path}")
 
-detect_cows(model, 'first_video.mp4', 'output_video.mp4')
+detect_cows(model, 'input_video.mp4', 'output_video.mp4')
