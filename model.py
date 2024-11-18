@@ -40,4 +40,4 @@ def detect_cows(model, video_path, output_path):
 
     print(f"Detection saved to {output_path}")
 
-detect_cows(model, 'input_video.mp4', 'output_video.mp4')
+detect_cows(model, 'Videos/input_video.mp4', 'output_video.mp4')
